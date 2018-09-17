@@ -1,0 +1,12 @@
+{
+  "name": "lumi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cleanser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "surge . --domain lumi.surge.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}

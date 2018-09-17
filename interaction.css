@@ -1,0 +1,73 @@
+.bubble{
+    transition:transform .2s ease-in-out;
+}
+
+.bubble:hover{
+    transform: scale(1.2);
+}
+
+.icon{
+    transition:transform .2s ease-in-out; 
+}
+
+.icon:hover{
+    transform: rotate(30deg);
+}
+
+.navs{
+    display: block;
+    transition: transform .2s ease-in-out;
+}
+
+.navs span {
+    display: block;
+    transition: transform .2s ease-in-out;
+}
+
+.navs:hover span{
+    transform: translateX(15%);
+}
+
+.navs:last-child span{
+    transform: translateX(0);
+}
+
+.navs:last-child {
+    transition: transform 0.1s ease-in-out, background 0.2s ease-in-out;
+}
+
+.navs:last-child:hover {
+    transform: translate(1px, 1px);
+    background: rgba(79, 33, 112, .6);
+    box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+}
+
+.slider {
+    transition: transform 1s
+}
+
+.cleansers{
+    transition: transform .3s ease-in-out;
+}
+
+.cleansers:hover{
+    transform: scale(1.2);
+}
+
+.buy{
+    transition: transform .3s ease-in-out;
+}
+
+.buy:hover{
+    transform: rotate(-20deg) 
+}
+
+.buycontainer a{
+    transition: transform .1s ease-in-out,background .1s ease-in-out;
+}
+
+.buycontainer a:hover{
+    transform: translate(.2px, .2px);
+    background: rgba(79, 33, 112, .6);
+    box-shadow: .2px .2px 2px rgba(0,0,0,0.15);
+}
